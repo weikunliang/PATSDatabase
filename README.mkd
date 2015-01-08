@@ -1,0 +1,11 @@
+PATS Phase 2 Files 
+------------
+This contains the solution to Phase 1 that all students need to follow in Phase 2 as well as a set of start files and test data.  Even if you like your solution better, you still need to conform to this solution so your project can be properly graded.
+
+In the pats_data.sql file there is test data for 120 owners and 237 pets representing 5 animal types.  In addition there are 9 procedures, 10 medicines (with 23 connections to animals) and each medicine/procedure has one older cost as well as a current cost.  The medicines are realistic, but no guarantee is made regarding the scientific accuracy of the data.  Moreover, there are 1949 visits which connect to 4531 treatments and 1475 visit_medicine applications.  In short, there should be enough realistic test data for you to work with in this phase.  If you have constructed your tables correctly, there should be no problem loading this data.
+
+Put your names in each of the remains pats_.sql files and populate it with the code requested in the phase description.  More instructions for this phase can be found on the course website at [http://67311.cmuis.net](http://67311.cmuis.net).  
+
+```  
+ NOTE: in this case do not replace the 'pats' owner with your own db owner name in the data files before trying to load the database.  The ownership is already set to a user called 'pats' so simply create a new user 'pats' on your local machine who owns the pats db. For security reasons, this user should NOT be a superuser.
+```
